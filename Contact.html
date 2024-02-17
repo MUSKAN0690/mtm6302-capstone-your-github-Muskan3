@@ -1,0 +1,111 @@
+Chat history
+
+
+
+Open sidebar
+
+ChatGPT 3.5
+
+User
+create a contact page  which includes sign up button behind the email,birthday and country bar  
+ChatGPT
+Certainly! Here's a basic HTML code for a contact page with sign up buttons behind the email, birthday, and country fields:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group select {
+            width: calc(100% - 24px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .signup-button {
+            margin-left: -30px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .signup-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="button" class="signup-button">Sign Up</button>
+            </div>
+            <div class="form-group">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" required>
+                <button type="button" class="signup-button">Sign Up</button>
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="USA">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                    <!-- Add more countries as needed -->
+                </select>
+                <button type="button" class="signup-button">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+In this code:
+
+Each form field (email, birthday, country) is followed by a "Sign Up" button.
+CSS is used to style the page, including button colors, field widths, and layout.
+JavaScript functionality for signing up could be added if desired, but this code only provides the structure and styling.
+
+
+
+
+Message ChatGPT…
+
+ChatGPT can make mistakes. Consider checking important information.
+
+?
+ChatGPT
